@@ -1,22 +1,19 @@
 {
-  "as_of_ts": 1794488418.143557,
-  "as_of": "12/11/2026 20:00:18",
+  "as_of_ts": 1794499407.1743135,
+  "as_of": "12/11/2026 23:03:27",
   "timezone": "Asia/Saigon (UTC+7)",
   "refresh_sec": 15,
   "desk": {
-    "state": "off",
-    "label": "DESK ĐANG TẮT",
-    "running": false,
-    "pid": null,
+    "state": "live",
+    "label": "DESK ĐANG CHẠY — TIỀN THẬT",
+    "running": true,
+    "pid": 2954199,
     "stale_pidfile": false,
-    "stopped": {
-      "ts": 1794387391.4354608,
-      "at": "11/11/2026 15:56:31"
-    },
-    "mode": "dry",
-    "armed_file": false,
+    "stopped": null,
+    "mode": "live",
+    "armed_file": true,
     "kill_file": false,
-    "live_send_possible": false
+    "live_send_possible": true
   },
   "rules": {
     "min_votes": 4,
@@ -33,875 +30,829 @@
       "id": "scanner",
       "name": "Máy quét",
       "subtitle": "Coin mới trên pump.fun",
-      "state": "off",
-      "activity": "Desk đang tắt",
-      "detail": "last 毛利蘭",
-      "last_ts": 1794387379.4419808,
-      "last_at": "11/11/2026 15:56:19",
-      "last_note": "last 毛利蘭"
+      "state": "on",
+      "activity": "last CAPRI",
+      "detail": null,
+      "last_ts": 1794499217.8435497,
+      "last_at": "12/11/2026 23:00:17",
+      "last_note": "last CAPRI"
     },
     {
       "id": "analyst",
       "name": "Nhà phân tích",
       "subtitle": "5 nhà đầu tư (Buffett, Munger, Graham, Lynch, Druckenmiller)",
-      "state": "off",
-      "activity": "Desk đang tắt",
-      "detail": "$JUSSY -0.46",
-      "last_ts": 1794387381.2387195,
-      "last_at": "11/11/2026 15:56:21",
-      "last_note": "$JUSSY -0.46"
+      "state": "on",
+      "activity": "$LA BEAST -0.49",
+      "detail": null,
+      "last_ts": 1794499213.9027827,
+      "last_at": "12/11/2026 23:00:13",
+      "last_note": "$LA BEAST -0.49"
     },
     {
       "id": "brain",
       "name": "Bộ não",
       "subtitle": "Luật: mua khi đủ 4/5 phiếu",
-      "state": "off",
-      "activity": "Desk đang tắt",
-      "detail": "$JUSSY SKIP",
-      "last_ts": 1794387381.2405026,
-      "last_at": "11/11/2026 15:56:21",
-      "last_note": "$JUSSY SKIP"
+      "state": "on",
+      "activity": "$LA BEAST SKIP",
+      "detail": null,
+      "last_ts": 1794499213.9032855,
+      "last_at": "12/11/2026 23:00:13",
+      "last_note": "$LA BEAST SKIP"
     },
     {
       "id": "executor",
       "name": "Người thi hành",
       "subtitle": "Chạy khô trên Solana (không gửi lệnh thật)",
-      "state": "off",
-      "activity": "Desk đang tắt",
-      "detail": "paper SELL COD stop_loss -11.35%",
-      "last_ts": 1794378802.1906912,
-      "last_at": "11/11/2026 13:33:22",
-      "last_note": "paper SELL COD stop_loss -11.35%"
+      "state": "on",
+      "activity": "paper SELL Rubio stop_loss -83.63%",
+      "detail": null,
+      "last_ts": 1794498506.49062,
+      "last_at": "12/11/2026 22:48:26",
+      "last_note": "paper SELL Rubio stop_loss -83.63%"
     },
     {
       "id": "risk",
       "name": "Rủi ro",
       "subtitle": "Cắt lỗ -6% · chốt lời +50% · $5/$20",
-      "state": "off",
-      "activity": "Desk đang tắt",
-      "detail": "equity max drawdown 55% > halt 50%",
-      "last_ts": 1794387288.497141,
-      "last_at": "11/11/2026 15:54:48",
+      "state": "on",
+      "activity": "equity max drawdown 55% > halt 50%",
+      "detail": null,
+      "last_ts": 1794499113.856029,
+      "last_at": "12/11/2026 22:58:33",
       "last_note": "equity max drawdown 55% > halt 50%"
     }
   ],
   "coins": [
     {
-      "mint": "6Y1RAqQuormeFqTVTugBGEGVm6nutB3Ca4c6rQDqpump",
-      "symbol": "毛利蘭",
-      "name": "Loved by Ran Mouri",
+      "mint": "2rKPW1inygWmAgJsrtG2ZBYSiU1CnKEYaqHeCFpwpump",
+      "symbol": "CAPRI",
+      "name": "Capri Coin",
       "platform": "pump_fun",
-      "seen_ts": 1794387379.44251,
-      "seen_at": "11/11/2026 15:56:19",
+      "seen_ts": 1794499217.8483262,
+      "seen_at": "12/11/2026 23:00:17",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=6Y1RAqQuormeFqTVTugBGEGVm6nutB3Ca4c6rQDqpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=2rKPW1inygWmAgJsrtG2ZBYSiU1CnKEYaqHeCFpwpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "5E6Xf5ZqUfrxhEmjE12F2pgPLtD32xwrSVhBgTcHspff",
-      "symbol": "Runner",
-      "name": "Fuck You Runner",
+      "mint": "xCS9L4zu3ApnFNZ1nSz6ZJ9f1Es3qxWfKZyKWrnpump",
+      "symbol": "BUGLES",
+      "name": "Bugles Cat",
       "platform": "pump_fun",
-      "seen_ts": 1794387374.4012265,
-      "seen_at": "11/11/2026 15:56:14",
+      "seen_ts": 1794499215.5931923,
+      "seen_at": "12/11/2026 23:00:15",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=5E6Xf5ZqUfrxhEmjE12F2pgPLtD32xwrSVhBgTcHspff&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=xCS9L4zu3ApnFNZ1nSz6ZJ9f1Es3qxWfKZyKWrnpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "9K7oQoFEnT3N6E1pbiTtHjhN5kE6M4iC1icTWvcwpump",
-      "symbol": "Runner",
-      "name": "Fuck You Runner",
+      "mint": "61CLe6XVTmfQFznvnzDhg9yixTVpydyKfEmG2U1qyFDY",
+      "symbol": "MUSK",
+      "name": "MUSK",
       "platform": "pump_fun",
-      "seen_ts": 1794387374.207756,
-      "seen_at": "11/11/2026 15:56:14",
+      "seen_ts": 1794499212.535948,
+      "seen_at": "12/11/2026 23:00:12",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=9K7oQoFEnT3N6E1pbiTtHjhN5kE6M4iC1icTWvcwpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=61CLe6XVTmfQFznvnzDhg9yixTVpydyKfEmG2U1qyFDY&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "CscQ8Kmnch8CkcZ5n3LzrWGfLkX3AoXs1TCSiY19pump",
-      "symbol": "ANGRYPCIA",
-      "name": "ANGRY ALOPECIANS UNITE",
+      "mint": "B2bFue5T6tFM91CizjA1WGmJYnArihLFAvjMJKbrhAG7",
+      "symbol": "YAHOOFINAN",
+      "name": "On set for  Invest today",
       "platform": "pump_fun",
-      "seen_ts": 1794387373.1860914,
-      "seen_at": "11/11/2026 15:56:13",
+      "seen_ts": 1794499211.81599,
+      "seen_at": "12/11/2026 23:00:11",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=CscQ8Kmnch8CkcZ5n3LzrWGfLkX3AoXs1TCSiY19pump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=B2bFue5T6tFM91CizjA1WGmJYnArihLFAvjMJKbrhAG7&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "9MMQMNP73SfyDg9gntkMHRsmRnqiWtj7ghEdey61pump",
-      "symbol": "MCH",
-      "name": "MoonChacha",
+      "mint": "GDZqD9Z3Ezy2dmh8MtLk6W9nKLY9XxhjKTLyiPE2sCZo",
+      "symbol": "WJRF",
+      "name": "We just ran frantically",
       "platform": "pump_fun",
-      "seen_ts": 1794387372.7669022,
-      "seen_at": "11/11/2026 15:56:12",
+      "seen_ts": 1794499206.119634,
+      "seen_at": "12/11/2026 23:00:06",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=9MMQMNP73SfyDg9gntkMHRsmRnqiWtj7ghEdey61pump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=GDZqD9Z3Ezy2dmh8MtLk6W9nKLY9XxhjKTLyiPE2sCZo&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "FfiWB1m9J3hzuNb9eDJyU7GZxGXyKAKAqjiersiFpump",
-      "symbol": "LOD",
-      "name": "Lion of Duty",
+      "mint": "EbiUxkFd3FpKqrqrNorsEP1nLyqfee3MnYVvaGv4pump",
+      "symbol": "TODAMOON",
+      "name": "FlyCat",
       "platform": "pump_fun",
-      "seen_ts": 1794387372.5662663,
-      "seen_at": "11/11/2026 15:56:12",
+      "seen_ts": 1794499204.5579565,
+      "seen_at": "12/11/2026 23:00:04",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=FfiWB1m9J3hzuNb9eDJyU7GZxGXyKAKAqjiersiFpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=EbiUxkFd3FpKqrqrNorsEP1nLyqfee3MnYVvaGv4pump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "G1T1XLW6TGcrhw1qndkh8KeTcd3pGhVngqdwumbpcash",
-      "symbol": "SH1T",
-      "name": "SH1T",
+      "mint": "F5jySQcJCYa9YFuZjgTCfRwdzKx46SByRH3FNxi4vJh5",
+      "symbol": "ONYX",
+      "name": "Justice For Onyx",
       "platform": "pump_fun",
-      "seen_ts": 1794387370.4698453,
-      "seen_at": "11/11/2026 15:56:10",
+      "seen_ts": 1794499202.7005043,
+      "seen_at": "12/11/2026 23:00:02",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=G1T1XLW6TGcrhw1qndkh8KeTcd3pGhVngqdwumbpcash&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=F5jySQcJCYa9YFuZjgTCfRwdzKx46SByRH3FNxi4vJh5&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "4covFheZSRfogVJnbq1XMsXW9PWvS88BoKRcZu9Epump",
-      "symbol": "sol",
-      "name": "grok bot",
+      "mint": "QkqeB5s3NFXX966tpkCSCZqXZ1XZzvXm59DxgcFpump",
+      "symbol": "ONYX",
+      "name": "Justice For Onyx",
       "platform": "pump_fun",
-      "seen_ts": 1794387367.6951206,
-      "seen_at": "11/11/2026 15:56:07",
+      "seen_ts": 1794499202.3857882,
+      "seen_at": "12/11/2026 23:00:02",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=4covFheZSRfogVJnbq1XMsXW9PWvS88BoKRcZu9Epump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=QkqeB5s3NFXX966tpkCSCZqXZ1XZzvXm59DxgcFpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "6hK7S3XU7s2VhSGXsrYfYjFbUGBSmthNsfJ8tCgdpump",
-      "symbol": "crayfish",
-      "name": "Delicious crayfish",
+      "mint": "8FcuGXS7L5grptqtUf7coF2Qgmri8JrFQsqXM2GCSRd1",
+      "symbol": "POPPER",
+      "name": "AI Bubble Popper",
       "platform": "pump_fun",
-      "seen_ts": 1794387367.6263216,
-      "seen_at": "11/11/2026 15:56:07",
+      "seen_ts": 1794499201.9835312,
+      "seen_at": "12/11/2026 23:00:01",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=6hK7S3XU7s2VhSGXsrYfYjFbUGBSmthNsfJ8tCgdpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=8FcuGXS7L5grptqtUf7coF2Qgmri8JrFQsqXM2GCSRd1&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "DtmBFX8QXW7NYK8iMjGMHFQhr91iNqo9Mo15nhp2pump",
-      "symbol": "COD",
-      "name": "Cat on Duty",
+      "mint": "R33Pb1eRkpsKs51pWyRaN1BqgwYtrwP741ox2jxpump",
+      "symbol": "SI",
+      "name": "AI/SI",
       "platform": "pump_fun",
-      "seen_ts": 1794387355.646743,
-      "seen_at": "11/11/2026 15:55:55",
+      "seen_ts": 1794499201.4581077,
+      "seen_at": "12/11/2026 23:00:01",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=DtmBFX8QXW7NYK8iMjGMHFQhr91iNqo9Mo15nhp2pump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=R33Pb1eRkpsKs51pWyRaN1BqgwYtrwP741ox2jxpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "Bi6jm6LHNGNmjgPA1Cch4FkugveraryZMcschGgJpump",
-      "symbol": "klown",
-      "name": "klown",
+      "mint": "HQhRVyJUUoaxWFKtLKkf5g6zNxikDpZAU533HHGsfhPA",
+      "symbol": "WINTERN",
+      "name": "A Wild Intern Appeared",
       "platform": "pump_fun",
-      "seen_ts": 1794387354.6154537,
-      "seen_at": "11/11/2026 15:55:54",
+      "seen_ts": 1794499200.0117297,
+      "seen_at": "12/11/2026 23:00:00",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=Bi6jm6LHNGNmjgPA1Cch4FkugveraryZMcschGgJpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=HQhRVyJUUoaxWFKtLKkf5g6zNxikDpZAU533HHGsfhPA&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "Ga5amnwhUkDbUDJsds8cSNT2PmcWWB6WCdvR23Kupump",
-      "symbol": "WCP",
-      "name": "WORLD COIN PAD",
+      "mint": "2QYJQKEaJE9QrEhpji2EgTfrbShkayLW8E3BeyavTsdT",
+      "symbol": "FOUND",
+      "name": "FOUND WOLF",
       "platform": "pump_fun",
-      "seen_ts": 1794387352.0941594,
-      "seen_at": "11/11/2026 15:55:52",
+      "seen_ts": 1794499198.2089458,
+      "seen_at": "12/11/2026 22:59:58",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=Ga5amnwhUkDbUDJsds8cSNT2PmcWWB6WCdvR23Kupump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=2QYJQKEaJE9QrEhpji2EgTfrbShkayLW8E3BeyavTsdT&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "C36Uzs9r6pLFRu2geYaHBcCXXmnfHdoiReFAvj63pump",
-      "symbol": "PAID",
-      "name": "PAID",
+      "mint": "DqFiGifHxj82sZirCTGM2HDNVgiejPyKKJPiYkLcpump",
+      "symbol": "United",
+      "name": "United Kingdo",
       "platform": "pump_fun",
-      "seen_ts": 1794387352.0912716,
-      "seen_at": "11/11/2026 15:55:52",
+      "seen_ts": 1794499196.8677206,
+      "seen_at": "12/11/2026 22:59:56",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=C36Uzs9r6pLFRu2geYaHBcCXXmnfHdoiReFAvj63pump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=DqFiGifHxj82sZirCTGM2HDNVgiejPyKKJPiYkLcpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "CQ6WE7ANe1D6xjwA3WDxspmjiBtqNgDgKoS2a3zSpump",
-      "symbol": "SOOTS",
-      "name": "Suits",
+      "mint": "Ev4sUDLGkems38y5JeTv42uYjZAa5iw5AgrSgKg5r7B5",
+      "symbol": "BRS",
+      "name": "BRS",
       "platform": "pump_fun",
-      "seen_ts": 1794387349.3355608,
-      "seen_at": "11/11/2026 15:55:49",
+      "seen_ts": 1794499192.1138322,
+      "seen_at": "12/11/2026 22:59:52",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=CQ6WE7ANe1D6xjwA3WDxspmjiBtqNgDgKoS2a3zSpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=Ev4sUDLGkems38y5JeTv42uYjZAa5iw5AgrSgKg5r7B5&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "GaaTgDLKQ8omY9nTpW8aY6hkWmB6c5HtTpmcEjQMpump",
-      "symbol": "GOD",
-      "name": "Giraffe of Duty",
-      "platform": "pump_fun",
-      "seen_ts": 1794387345.667471,
-      "seen_at": "11/11/2026 15:55:45",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=GaaTgDLKQ8omY9nTpW8aY6hkWmB6c5HtTpmcEjQMpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "GBtzisSjz8geLyQoGnLhBLJ5aa3P9F4N35iEHBAKpump",
-      "symbol": "franxh",
-      "name": "franqcat",
-      "platform": "pump_fun",
-      "seen_ts": 1794387339.725899,
-      "seen_at": "11/11/2026 15:55:39",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=GBtzisSjz8geLyQoGnLhBLJ5aa3P9F4N35iEHBAKpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "EMtgZMontygPJkr2UMxrjigoJDjXHkamonfQKfx5pump",
-      "symbol": "Islam",
-      "name": "Islam",
-      "platform": "pump_fun",
-      "seen_ts": 1794387338.9654794,
-      "seen_at": "11/11/2026 15:55:38",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=EMtgZMontygPJkr2UMxrjigoJDjXHkamonfQKfx5pump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "Faj8BY2FagpdvzW6RSTQ4rnmi2JVF2SQ2FUFQPSVpump",
-      "symbol": "wApe",
-      "name": "wrappedape",
-      "platform": "pump_fun",
-      "seen_ts": 1794387333.5647097,
-      "seen_at": "11/11/2026 15:55:33",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=Faj8BY2FagpdvzW6RSTQ4rnmi2JVF2SQ2FUFQPSVpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "gVLA9RnBZpxh6PJvthcE2GMhLWxp11fGkwJiXPnpump",
-      "symbol": "Brokencat",
-      "name": "Broken Cat",
-      "platform": "pump_fun",
-      "seen_ts": 1794387322.1913133,
-      "seen_at": "11/11/2026 15:55:22",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=gVLA9RnBZpxh6PJvthcE2GMhLWxp11fGkwJiXPnpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "EsJ1QE7FmFwSgQMXLNeNWCAGN6G2sVCnv2Lz4D8Wpump",
-      "symbol": "DERP",
-      "name": "DERPCAT",
-      "platform": "pump_fun",
-      "seen_ts": 1794387321.5177963,
-      "seen_at": "11/11/2026 15:55:21",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=EsJ1QE7FmFwSgQMXLNeNWCAGN6G2sVCnv2Lz4D8Wpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "Ffb1ghKEbAdvdrstkMJanwRX95RSxVk94vTSkrwvQDso",
-      "symbol": "meowphant",
-      "name": "meowphant",
-      "platform": "pump_fun",
-      "seen_ts": 1794387321.0475862,
-      "seen_at": "11/11/2026 15:55:21",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=Ffb1ghKEbAdvdrstkMJanwRX95RSxVk94vTSkrwvQDso&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "3XjvvJzDJuuvCjhY9o6DaHCckuwwW6PwLQ1VHVT9XC8y",
-      "symbol": "meowphant",
-      "name": "meowphant",
-      "platform": "pump_fun",
-      "seen_ts": 1794387320.3470242,
-      "seen_at": "11/11/2026 15:55:20",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=3XjvvJzDJuuvCjhY9o6DaHCckuwwW6PwLQ1VHVT9XC8y&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "7hDA58yGFg5AHHSHGUQyDzNkiBeFw2BDgAfxiGozpump",
-      "symbol": "ZOD",
-      "name": "Zebra of Duty",
-      "platform": "pump_fun",
-      "seen_ts": 1794387319.8647373,
-      "seen_at": "11/11/2026 15:55:19",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=7hDA58yGFg5AHHSHGUQyDzNkiBeFw2BDgAfxiGozpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "BfujUFSLgxcbQDkoiu56Lr2K3MTTppVdqQxiynBu4ae",
-      "symbol": "ANAL",
-      "name": "Ape Now Analyze Later",
-      "platform": "pump_fun",
-      "seen_ts": 1794387313.4606347,
-      "seen_at": "11/11/2026 15:55:13",
-      "status": "watching",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=BfujUFSLgxcbQDkoiu56Lr2K3MTTppVdqQxiynBu4ae&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "214HQR9KmwAmohAPjkDZPpEsqZK3h7nN4HxrSsKLpump",
+      "mint": "ERCwaahABx2dy2wefiC3qRyMMkGbHHMnoNViSbvmpump",
       "symbol": "$JUSSY",
       "name": "JUSSY COIN",
       "platform": "pump_fun",
-      "seen_ts": 1794387310.1783447,
-      "seen_at": "11/11/2026 15:55:10",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=214HQR9KmwAmohAPjkDZPpEsqZK3h7nN4HxrSsKLpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "HSYAArtSSr5caKMVSK8xcgLoB42GgGWrP1yZBTxDpump",
-      "symbol": "ANAL",
-      "name": "Ape Now Analyze Later",
-      "platform": "pump_fun",
-      "seen_ts": 1794387309.544387,
-      "seen_at": "11/11/2026 15:55:09",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=HSYAArtSSr5caKMVSK8xcgLoB42GgGWrP1yZBTxDpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "5sqhzShF5BfycenZPMuVwwDLoY11P5SULVyA9du1pump",
-      "symbol": "FRANCT",
-      "name": "frenchcat",
-      "platform": "pump_fun",
-      "seen_ts": 1794387307.8622918,
-      "seen_at": "11/11/2026 15:55:07",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=5sqhzShF5BfycenZPMuVwwDLoY11P5SULVyA9du1pump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "HuqsGmiSN9gYAwfG6bJ4fxHk9D2sCEvmdVWu28prpump",
-      "symbol": "DOG",
-      "name": "xfilldog",
-      "platform": "pump_fun",
-      "seen_ts": 1794387305.6294823,
-      "seen_at": "11/11/2026 15:55:05",
+      "seen_ts": 1794499192.1025736,
+      "seen_at": "12/11/2026 22:59:52",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=HuqsGmiSN9gYAwfG6bJ4fxHk9D2sCEvmdVWu28prpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=ERCwaahABx2dy2wefiC3qRyMMkGbHHMnoNViSbvmpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "Hc1CLfkiyhPpc8zhkqMeDyoQx2kHFsb1X15cUYQmpump",
-      "symbol": "LSide",
-      "name": "LeftSide",
+      "mint": "8drBkSRzcSrJzFfcebsxSsM1kMBn7U1LfcT8dyWXpump",
+      "symbol": "CH",
+      "name": "CryptoHorn",
       "platform": "pump_fun",
-      "seen_ts": 1794387304.3522444,
-      "seen_at": "11/11/2026 15:55:04",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=Hc1CLfkiyhPpc8zhkqMeDyoQx2kHFsb1X15cUYQmpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "7uGEbwvUaxErMZyM4BXfu4Vmo1Q9JihF7s3iVJZF7E8f",
-      "symbol": "APE",
-      "name": "Ape Ape",
-      "platform": "pump_fun",
-      "seen_ts": 1794387302.8298519,
-      "seen_at": "11/11/2026 15:55:02",
+      "seen_ts": 1794499184.5609908,
+      "seen_at": "12/11/2026 22:59:44",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=7uGEbwvUaxErMZyM4BXfu4Vmo1Q9JihF7s3iVJZF7E8f&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=8drBkSRzcSrJzFfcebsxSsM1kMBn7U1LfcT8dyWXpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "H1kfMo9VmD58SK63mn7Di7TmB6pP8M4R6vpdPFYppump",
-      "symbol": "SOOTS",
-      "name": "Suits",
+      "mint": "BAvZwcUbQWDcp11SGbqpPLQNjLm1qBLGCjPsmfWnpump",
+      "symbol": "fun",
+      "name": "PUMP IS FUN",
       "platform": "pump_fun",
-      "seen_ts": 1794387298.941502,
-      "seen_at": "11/11/2026 15:54:58",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=H1kfMo9VmD58SK63mn7Di7TmB6pP8M4R6vpdPFYppump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "7MwSqchUMaehFfXMVFGgV5W5QAiCkVbxVD28sUUPpump",
-      "symbol": "DERP",
-      "name": "DERPCAT",
-      "platform": "pump_fun",
-      "seen_ts": 1794387293.4012847,
-      "seen_at": "11/11/2026 15:54:53",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=7MwSqchUMaehFfXMVFGgV5W5QAiCkVbxVD28sUUPpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "46dhX7BeQ2ZCFGf1skCbbMGcBFTwuyFuLmUaQqSkpump",
-      "symbol": "ANGRYPCIA",
-      "name": "ANGRY ALOPECIANS UNITE",
-      "platform": "pump_fun",
-      "seen_ts": 1794387290.334095,
-      "seen_at": "11/11/2026 15:54:50",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=46dhX7BeQ2ZCFGf1skCbbMGcBFTwuyFuLmUaQqSkpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "Ckh8tMuDCGnzaqxqkq644nN6B4QrEmhejCwj8EVFpump",
-      "symbol": "$AURA",
-      "name": "AURACOIN",
-      "platform": "pump_fun",
-      "seen_ts": 1794387287.07479,
-      "seen_at": "11/11/2026 15:54:47",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=Ckh8tMuDCGnzaqxqkq644nN6B4QrEmhejCwj8EVFpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "GfiZUoPncqaBYzDK5RkZbNXBzgJPL82y6AuGLM6Wpump",
-      "symbol": "SCRVAN",
-      "name": "Screaming Vandal",
-      "platform": "pump_fun",
-      "seen_ts": 1794387285.440743,
-      "seen_at": "11/11/2026 15:54:45",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=GfiZUoPncqaBYzDK5RkZbNXBzgJPL82y6AuGLM6Wpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "Hj1YygY1Qi7mdsXZoJdJbtN6M9gBfs9hFdLAxhyHi9xL",
-      "symbol": "Brokecat",
-      "name": "Broke Cat",
-      "platform": "pump_fun",
-      "seen_ts": 1794387283.2096822,
-      "seen_at": "11/11/2026 15:54:43",
+      "seen_ts": 1794499184.5600986,
+      "seen_at": "12/11/2026 22:59:44",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=Hj1YygY1Qi7mdsXZoJdJbtN6M9gBfs9hFdLAxhyHi9xL&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=BAvZwcUbQWDcp11SGbqpPLQNjLm1qBLGCjPsmfWnpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "5JwwkUe7F19uoHz19bKMvL2cVLyJzqmefwaELmfFpump",
-      "symbol": "Brokecat",
-      "name": "Broke Cat",
+      "mint": "2h4XEKXpLfpKoJXfPA6k1gdsezcDDcR3SvFojmRnpump",
+      "symbol": "vrl",
+      "name": "VRL",
       "platform": "pump_fun",
-      "seen_ts": 1794387282.3337452,
-      "seen_at": "11/11/2026 15:54:42",
-      "status": "skipped",
-      "flow": "history",
-      "age_sec": null,
-      "samples": null,
-      "fomo": "https://fomo.family/coin?address=5JwwkUe7F19uoHz19bKMvL2cVLyJzqmefwaELmfFpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "9MDn8ZMY6WQnxarYG9H6urZN2YRsxn3gKJ8RaLoYEzC3",
-      "symbol": "SUPER",
-      "name": "SUPER",
-      "platform": "pump_fun",
-      "seen_ts": 1794387282.0595198,
-      "seen_at": "11/11/2026 15:54:42",
+      "seen_ts": 1794499184.113173,
+      "seen_at": "12/11/2026 22:59:44",
       "status": "watching",
-      "flow": "history",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=9MDn8ZMY6WQnxarYG9H6urZN2YRsxn3gKJ8RaLoYEzC3&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=2h4XEKXpLfpKoJXfPA6k1gdsezcDDcR3SvFojmRnpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "DhMZEjaRXDyQczZ2HTd3dnKMHCa2Qtg9LK4AsUoQpump",
-      "symbol": "clephant",
-      "name": "clephant",
+      "mint": "47cKwbEXjNyFdU3DYhs6uXYHFtQJdLmkMSu7cc82su9w",
+      "symbol": "AD2026",
+      "name": "AD2026",
       "platform": "pump_fun",
-      "seen_ts": 1794387280.5837195,
-      "seen_at": "11/11/2026 15:54:40",
-      "status": "skipped",
-      "flow": "history",
+      "seen_ts": 1794499183.3636544,
+      "seen_at": "12/11/2026 22:59:43",
+      "status": "watching",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=DhMZEjaRXDyQczZ2HTd3dnKMHCa2Qtg9LK4AsUoQpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=47cKwbEXjNyFdU3DYhs6uXYHFtQJdLmkMSu7cc82su9w&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "B7zu7kX61kxJ5GKx7CTB5bZguka73vnCM7ybmBSvpump",
-      "symbol": "ch",
-      "name": "chair",
+      "mint": "EQaoyTqEsqLsVjnXNAyzoXY8otAwWcNNqWhUw8aRpump",
+      "symbol": "SEDITIOUSSIX",
+      "name": "The Seditious Six",
       "platform": "pump_fun",
-      "seen_ts": 1794387274.6192598,
-      "seen_at": "11/11/2026 15:54:34",
-      "status": "skipped",
-      "flow": "history",
+      "seen_ts": 1794499171.6284516,
+      "seen_at": "12/11/2026 22:59:31",
+      "status": "watching",
+      "flow": "watching",
       "age_sec": null,
       "samples": null,
-      "fomo": "https://fomo.family/coin?address=B7zu7kX61kxJ5GKx7CTB5bZguka73vnCM7ybmBSvpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=EQaoyTqEsqLsVjnXNAyzoXY8otAwWcNNqWhUw8aRpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "E2jmHFi4w9GpWzCcbNa9dgPwNV5R8NW2qDVjNnRGpump",
+      "symbol": "CCK",
+      "name": "kolette ",
+      "platform": "pump_fun",
+      "seen_ts": 1794499171.2624729,
+      "seen_at": "12/11/2026 22:59:31",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=E2jmHFi4w9GpWzCcbNa9dgPwNV5R8NW2qDVjNnRGpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "B5J3QZxpEtfTwkQ2vztyXM1c5TXyHXSrpt3wQBLPpump",
+      "symbol": "$JUSSY",
+      "name": "JUSSY COIN",
+      "platform": "pump_fun",
+      "seen_ts": 1794499167.1006432,
+      "seen_at": "12/11/2026 22:59:27",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=B5J3QZxpEtfTwkQ2vztyXM1c5TXyHXSrpt3wQBLPpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "F5ZGH4JNFWGpoWRjBehwBo79GennRootn6ptL2geaQZh",
+      "symbol": "SEDITIOUSSIX",
+      "name": "The Seditious Six",
+      "platform": "pump_fun",
+      "seen_ts": 1794499159.6081345,
+      "seen_at": "12/11/2026 22:59:19",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=F5ZGH4JNFWGpoWRjBehwBo79GennRootn6ptL2geaQZh&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "4xeKKEJdjJGhGRPQzYTWC4t3WGABXepkprEJxusopump",
+      "symbol": "Huang ",
+      "name": "baby side chicks ",
+      "platform": "pump_fun",
+      "seen_ts": 1794499158.9145637,
+      "seen_at": "12/11/2026 22:59:18",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=4xeKKEJdjJGhGRPQzYTWC4t3WGABXepkprEJxusopump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "3H9ZHVZXYYvAJCyvctkaGSFFPM2wmZG1rUfjEi7vpump",
+      "symbol": "SEDITIOUSSIX",
+      "name": "The Seditious Six",
+      "platform": "pump_fun",
+      "seen_ts": 1794499156.2876523,
+      "seen_at": "12/11/2026 22:59:16",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=3H9ZHVZXYYvAJCyvctkaGSFFPM2wmZG1rUfjEi7vpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "3LBdn3LNggmPheN7FuKMyFr8ZiXQSWWvDubJ9Spkpump",
+      "symbol": "SIX",
+      "name": "Seditious Six",
+      "platform": "pump_fun",
+      "seen_ts": 1794499152.9900982,
+      "seen_at": "12/11/2026 22:59:12",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=3LBdn3LNggmPheN7FuKMyFr8ZiXQSWWvDubJ9Spkpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "5wmhNyYpNZWaRj5xs6U54VtBFGoKpwpPALH8hdspump",
+      "symbol": "SeditiousSix",
+      "name": "The Seditious Six",
+      "platform": "pump_fun",
+      "seen_ts": 1794499152.1570697,
+      "seen_at": "12/11/2026 22:59:12",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=5wmhNyYpNZWaRj5xs6U54VtBFGoKpwpPALH8hdspump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "7dFvrq8NeAy3j8Gz28VXqbeR4fonT72HMs1WKeqspump",
+      "symbol": "$LA BEAST",
+      "name": "$HAVE A GOOD DAY",
+      "platform": "pump_fun",
+      "seen_ts": 1794499149.1769118,
+      "seen_at": "12/11/2026 22:59:09",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=7dFvrq8NeAy3j8Gz28VXqbeR4fonT72HMs1WKeqspump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "27nZjZDbbhDX3orAgSrEz6HtGAR3FYRKbYEkVTodpump",
+      "symbol": "AP",
+      "name": "Austrian painter?",
+      "platform": "pump_fun",
+      "seen_ts": 1794499148.8264482,
+      "seen_at": "12/11/2026 22:59:08",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=27nZjZDbbhDX3orAgSrEz6HtGAR3FYRKbYEkVTodpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "E297W3bFWqWmA5PtuZrAMg1TwBtA1NJeuNs5BmS2g8M5",
+      "symbol": "ANT",
+      "name": "ANT",
+      "platform": "pump_fun",
+      "seen_ts": 1794499142.245529,
+      "seen_at": "12/11/2026 22:59:02",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=E297W3bFWqWmA5PtuZrAMg1TwBtA1NJeuNs5BmS2g8M5&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "9VLNL8tShyqTmZr2xfstVo9dMiPiz7dfAA5tpDt1pump",
+      "symbol": "SNAKE",
+      "name": "$SNAKE",
+      "platform": "pump_fun",
+      "seen_ts": 1794499139.2406492,
+      "seen_at": "12/11/2026 22:58:59",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=9VLNL8tShyqTmZr2xfstVo9dMiPiz7dfAA5tpDt1pump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "ELNcQtp4AgR1LFLh8Bweze3T46jikZkfQfDthWPEpump",
+      "symbol": "LIQUITTY",
+      "name": "$LIQUITTY",
+      "platform": "pump_fun",
+      "seen_ts": 1794499136.1725748,
+      "seen_at": "12/11/2026 22:58:56",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=ELNcQtp4AgR1LFLh8Bweze3T46jikZkfQfDthWPEpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "FvaU7xKtL7vcRkRxC2WxFqhjGFdquEkdBZ7GtKMBpump",
+      "symbol": "HEPE",
+      "name": "Huang Pepe",
+      "platform": "pump_fun",
+      "seen_ts": 1794499134.919698,
+      "seen_at": "12/11/2026 22:58:54",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=FvaU7xKtL7vcRkRxC2WxFqhjGFdquEkdBZ7GtKMBpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "9BDYHnN25KC2kqYHeG8PY5TM3iVDhCSL8etKjeogpump",
+      "symbol": "KINGMAX",
+      "name": "King Max",
+      "platform": "pump_fun",
+      "seen_ts": 1794499134.4732094,
+      "seen_at": "12/11/2026 22:58:54",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=9BDYHnN25KC2kqYHeG8PY5TM3iVDhCSL8etKjeogpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "J3awhVeNySTT1gdw9b2tZNWedXNyoraznodHpxBepump",
+      "symbol": "PEPEONGAS",
+      "name": "pepe shrooming",
+      "platform": "pump_fun",
+      "seen_ts": 1794499133.5513902,
+      "seen_at": "12/11/2026 22:58:53",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=J3awhVeNySTT1gdw9b2tZNWedXNyoraznodHpxBepump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "6fRwSJrXSPynvjJX2vWPzRHGrGDrs2o5TjnLk3TKpump",
+      "symbol": "$SLJK",
+      "name": "Soljack",
+      "platform": "pump_fun",
+      "seen_ts": 1794499129.3295507,
+      "seen_at": "12/11/2026 22:58:49",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=6fRwSJrXSPynvjJX2vWPzRHGrGDrs2o5TjnLk3TKpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "J9qPgLXe671kbN57eeMfovAPhNSxn8bigPCSxCVSvoKT",
+      "symbol": "BTC",
+      "name": "BTC",
+      "platform": "pump_fun",
+      "seen_ts": 1794499125.3369136,
+      "seen_at": "12/11/2026 22:58:45",
+      "status": "watching",
+      "flow": "watching",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=J9qPgLXe671kbN57eeMfovAPhNSxn8bigPCSxCVSvoKT&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "CU7cJAbA5GRBtpnJHzMHSUa8jqikJr4vB827wBARpump",
+      "symbol": "fun",
+      "name": "PUMP IS FUN",
+      "platform": "pump_fun",
+      "seen_ts": 1794499122.563559,
+      "seen_at": "12/11/2026 22:58:42",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=CU7cJAbA5GRBtpnJHzMHSUa8jqikJr4vB827wBARpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "2rShfehyLpmcjSYnKrXDgm8L3wZpRbS8yGEjWS1ypump",
+      "symbol": "ZJENSEN",
+      "name": "Anonymous Jensen Huang",
+      "platform": "pump_fun",
+      "seen_ts": 1794499117.8812666,
+      "seen_at": "12/11/2026 22:58:37",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=2rShfehyLpmcjSYnKrXDgm8L3wZpRbS8yGEjWS1ypump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "7k8HKMRDrKQCxH5nxBqay6zAS17BonEHxVU1HykXpump",
+      "symbol": "DC",
+      "name": "debts collector",
+      "platform": "pump_fun",
+      "seen_ts": 1794499117.8802865,
+      "seen_at": "12/11/2026 22:58:37",
+      "status": "skipped",
+      "flow": "skipped",
+      "age_sec": null,
+      "samples": null,
+      "fomo": "https://fomo.family/coin?address=7k8HKMRDrKQCxH5nxBqay6zAS17BonEHxVU1HykXpump&chainId=1399811149&r=savipww&source=share_link"
     }
   ],
   "votes": [
     {
-      "mint": "214HQR9KmwAmohAPjkDZPpEsqZK3h7nN4HxrSsKLpump",
-      "symbol": "$JUSSY",
-      "name": "JUSSY COIN",
-      "ts": 1794387378.025246,
-      "at": "11/11/2026 15:56:18",
+      "mint": "27nZjZDbbhDX3orAgSrEz6HtGAR3FYRKbYEkVTodpump",
+      "symbol": "AP",
+      "name": "Austrian painter?",
+      "ts": 1794499213.3905516,
+      "at": "12/11/2026 23:00:13",
       "yes": 0,
       "need": 4,
       "of": 5,
       "passed": false,
       "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
+      "reason": "panel 0/5 BUY < 4",
       "votes": [
         {
           "investor": "warren_buffett",
           "label": "Buffett",
           "vote": "NO",
-          "reason": "real SOL 0.13 (>=2), inflow -0.07 (>0), 92.8% off high (<=10)"
+          "reason": "real SOL 0.00 (>=2), inflow -0.15 (>0), 1.0% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
           "label": "Munger",
           "vote": "NO",
-          "reason": "drawdown 93%>20; last step -51%<-8; 4 down>2 up; real SOL 0.13<1"
+          "reason": "1 down>0 up; real SOL 0.00<1"
         },
         {
           "investor": "ben_graham",
           "label": "Graham",
           "vote": "NO",
-          "reason": "real SOL 0.13 in [0.5,30], move -85.5% in (0,80]"
+          "reason": "real SOL 0.00 in [0.5,30], move -1.0% in (0,80]"
         },
         {
           "investor": "peter_lynch",
           "label": "Lynch",
           "vote": "NO",
-          "reason": "inflow -0.07 (>=1), 2 up/4 down, move -85.5% in (0,150]"
+          "reason": "inflow -0.15 (>=1), 0 up/1 down, move -1.0% in (0,150]"
         },
         {
           "investor": "stanley_druckenmiller",
           "label": "Druckenmiller",
           "vote": "NO",
-          "reason": "move -85.5% (>=10), recent half -74.3% (>0), inflow -0.07 (>0)"
+          "reason": "move -1.0% (>=10), recent half -1.0% (>0), inflow -0.15 (>0)"
         }
       ],
-      "fomo": "https://fomo.family/coin?address=214HQR9KmwAmohAPjkDZPpEsqZK3h7nN4HxrSsKLpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=27nZjZDbbhDX3orAgSrEz6HtGAR3FYRKbYEkVTodpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "HSYAArtSSr5caKMVSK8xcgLoB42GgGWrP1yZBTxDpump",
-      "symbol": "ANAL",
-      "name": "Ape Now Analyze Later",
-      "ts": 1794387378.025246,
-      "at": "11/11/2026 15:56:18",
+      "mint": "7dFvrq8NeAy3j8Gz28VXqbeR4fonT72HMs1WKeqspump",
+      "symbol": "$LA BEAST",
+      "name": "$HAVE A GOOD DAY",
+      "ts": 1794499213.3905516,
+      "at": "12/11/2026 23:00:13",
       "yes": 0,
       "need": 4,
       "of": 5,
       "passed": false,
       "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
+      "reason": "panel 0/5 BUY < 4",
       "votes": [
         {
           "investor": "warren_buffett",
           "label": "Buffett",
           "vote": "NO",
-          "reason": "real SOL 2.36 (>=2), inflow -3.39 (>0), 18.1% off high (<=10)"
+          "reason": "real SOL 0.01 (>=2), inflow -0.11 (>0), 81.6% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
           "label": "Munger",
           "vote": "NO",
-          "reason": "drawdown 26%>20; 3 down>1 up"
+          "reason": "drawdown 82%>20; 4 down>1 up; real SOL 0.01<1"
         },
         {
           "investor": "ben_graham",
           "label": "Graham",
           "vote": "NO",
-          "reason": "real SOL 2.36 in [0.5,30], move -18.1% in (0,80]"
+          "reason": "real SOL 0.01 in [0.5,30], move -81.6% in (0,80]"
         },
         {
           "investor": "peter_lynch",
           "label": "Lynch",
           "vote": "NO",
-          "reason": "inflow -3.39 (>=1), 1 up/3 down, move -18.1% in (0,150]"
+          "reason": "inflow -0.11 (>=1), 1 up/4 down, move -81.6% in (0,150]"
         },
         {
           "investor": "stanley_druckenmiller",
           "label": "Druckenmiller",
           "vote": "NO",
-          "reason": "move -18.1% (>=10), recent half -0.0% (>0), inflow -3.39 (>0)"
+          "reason": "move -81.6% (>=10), recent half -75.3% (>0), inflow -0.11 (>0)"
         }
       ],
-      "fomo": "https://fomo.family/coin?address=HSYAArtSSr5caKMVSK8xcgLoB42GgGWrP1yZBTxDpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=7dFvrq8NeAy3j8Gz28VXqbeR4fonT72HMs1WKeqspump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "5sqhzShF5BfycenZPMuVwwDLoY11P5SULVyA9du1pump",
-      "symbol": "FRANCT",
-      "name": "frenchcat",
-      "ts": 1794387368.0242276,
-      "at": "11/11/2026 15:56:08",
+      "mint": "9BDYHnN25KC2kqYHeG8PY5TM3iVDhCSL8etKjeogpump",
+      "symbol": "KINGMAX",
+      "name": "King Max",
+      "ts": 1794499203.3883383,
+      "at": "12/11/2026 23:00:03",
       "yes": 0,
       "need": 4,
       "of": 5,
       "passed": false,
       "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
+      "reason": "panel 0/5 BUY < 4",
       "votes": [
         {
           "investor": "warren_buffett",
           "label": "Buffett",
           "vote": "NO",
-          "reason": "real SOL 0.10 (>=2), inflow +0.00 (>0), 0.1% off high (<=10)"
+          "reason": "real SOL 0.39 (>=2), inflow +0.02 (>0), 0.1% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
           "label": "Munger",
           "vote": "NO",
-          "reason": "real SOL 0.10<1"
+          "reason": "real SOL 0.39<1"
         },
         {
           "investor": "ben_graham",
           "label": "Graham",
           "vote": "NO",
-          "reason": "real SOL 0.10 in [0.5,30], move +0.0% in (0,80]"
+          "reason": "real SOL 0.39 in [0.5,30], move +0.1% in (0,80]"
         },
         {
           "investor": "peter_lynch",
           "label": "Lynch",
           "vote": "NO",
-          "reason": "inflow +0.00 (>=1), 1 up/1 down, move +0.0% in (0,150]"
+          "reason": "inflow +0.02 (>=1), 1 up/1 down, move +0.1% in (0,150]"
         },
         {
           "investor": "stanley_druckenmiller",
           "label": "Druckenmiller",
           "vote": "NO",
-          "reason": "move +0.0% (>=10), recent half +0.0% (>0), inflow +0.00 (>0)"
+          "reason": "move +0.1% (>=10), recent half +0.0% (>0), inflow +0.02 (>0)"
         }
       ],
-      "fomo": "https://fomo.family/coin?address=5sqhzShF5BfycenZPMuVwwDLoY11P5SULVyA9du1pump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=9BDYHnN25KC2kqYHeG8PY5TM3iVDhCSL8etKjeogpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "H1kfMo9VmD58SK63mn7Di7TmB6pP8M4R6vpdPFYppump",
-      "symbol": "SOOTS",
-      "name": "Suits",
-      "ts": 1794387368.0242276,
-      "at": "11/11/2026 15:56:08",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.01 (>=2), inflow +0.01 (>0), 0.0% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "real SOL 0.01<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.01 in [0.5,30], move +0.0% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow +0.01 (>=1), 1 up/0 down, move +0.0% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move +0.0% (>=10), recent half +0.0% (>0), inflow +0.01 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=H1kfMo9VmD58SK63mn7Di7TmB6pP8M4R6vpdPFYppump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "Hc1CLfkiyhPpc8zhkqMeDyoQx2kHFsb1X15cUYQmpump",
-      "symbol": "LSide",
-      "name": "LeftSide",
-      "ts": 1794387368.0242276,
-      "at": "11/11/2026 15:56:08",
-      "yes": 2,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 2/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.57 (>=2), inflow +0.16 (>0), 0.0% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "real SOL 0.57<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "BUY",
-          "reason": "real SOL 0.57 in [0.5,30], move +44.9% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow +0.16 (>=1), 1 up/0 down, move +44.9% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "BUY",
-          "reason": "move +44.9% (>=10), recent half +44.9% (>0), inflow +0.16 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=Hc1CLfkiyhPpc8zhkqMeDyoQx2kHFsb1X15cUYQmpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "46dhX7BeQ2ZCFGf1skCbbMGcBFTwuyFuLmUaQqSkpump",
-      "symbol": "ANGRYPCIA",
-      "name": "ANGRY ALOPECIANS UNITE",
-      "ts": 1794387358.0237288,
-      "at": "11/11/2026 15:55:58",
+      "mint": "9VLNL8tShyqTmZr2xfstVo9dMiPiz7dfAA5tpDt1pump",
+      "symbol": "SNAKE",
+      "name": "$SNAKE",
+      "ts": 1794499203.3883383,
+      "at": "12/11/2026 23:00:03",
       "yes": 1,
       "need": 4,
       "of": 5,
       "passed": false,
       "action": "SKIP",
-      "reason": "panel 1/5 BUY < 3",
+      "reason": "panel 1/5 BUY < 4",
       "votes": [
         {
           "investor": "warren_buffett",
           "label": "Buffett",
           "vote": "NO",
-          "reason": "real SOL 0.90 (>=2), inflow +0.08 (>0), 0.0% off high (<=10)"
+          "reason": "real SOL 0.21 (>=2), inflow +0.18 (>0), 65.4% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
           "label": "Munger",
           "vote": "NO",
-          "reason": "drawdown 81%>20; real SOL 0.90<1"
+          "reason": "drawdown 66%>20; last step -65%<-8; real SOL 0.21<1"
         },
         {
           "investor": "ben_graham",
           "label": "Graham",
-          "vote": "BUY",
-          "reason": "real SOL 0.90 in [0.5,30], move +4.7% in (0,80]"
+          "vote": "NO",
+          "reason": "real SOL 0.21 in [0.5,30], move +476.2% in (0,80]"
         },
         {
           "investor": "peter_lynch",
           "label": "Lynch",
           "vote": "NO",
-          "reason": "inflow +0.08 (>=1), 3 up/3 down, move +4.7% in (0,150]"
+          "reason": "inflow +0.18 (>=1), 4 up/2 down, move +476.2% in (0,150]"
         },
         {
           "investor": "stanley_druckenmiller",
           "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move +4.7% (>=10), recent half +168.8% (>0), inflow +0.08 (>0)"
+          "vote": "BUY",
+          "reason": "move +476.2% (>=10), recent half +785.4% (>0), inflow +0.18 (>0)"
         }
       ],
-      "fomo": "https://fomo.family/coin?address=46dhX7BeQ2ZCFGf1skCbbMGcBFTwuyFuLmUaQqSkpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=9VLNL8tShyqTmZr2xfstVo9dMiPiz7dfAA5tpDt1pump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "7MwSqchUMaehFfXMVFGgV5W5QAiCkVbxVD28sUUPpump",
-      "symbol": "DERP",
-      "name": "DERPCAT",
-      "ts": 1794387358.0237288,
-      "at": "11/11/2026 15:55:58",
+      "mint": "J3awhVeNySTT1gdw9b2tZNWedXNyoraznodHpxBepump",
+      "symbol": "PEPEONGAS",
+      "name": "pepe shrooming",
+      "ts": 1794499203.3883383,
+      "at": "12/11/2026 23:00:03",
       "yes": 0,
       "need": 4,
       "of": 5,
       "passed": false,
       "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
+      "reason": "panel 0/5 BUY < 4",
       "votes": [
         {
           "investor": "warren_buffett",
           "label": "Buffett",
           "vote": "NO",
-          "reason": "real SOL 0.00 (>=2), inflow -0.29 (>0), 2.2% off high (<=10)"
+          "reason": "real SOL 0.29 (>=2), inflow -1.33 (>0), 81.5% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "drawdown 81%>20; 3 down>0 up; real SOL 0.29<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.29 in [0.5,30], move -81.5% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow -1.33 (>=1), 0 up/3 down, move -81.5% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move -81.5% (>=10), recent half +0.0% (>0), inflow -1.33 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=J3awhVeNySTT1gdw9b2tZNWedXNyoraznodHpxBepump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "6fRwSJrXSPynvjJX2vWPzRHGrGDrs2o5TjnLk3TKpump",
+      "symbol": "$SLJK",
+      "name": "Soljack",
+      "ts": 1794499193.386525,
+      "at": "12/11/2026 22:59:53",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.00 (>=2), inflow -0.09 (>0), 1.9% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
@@ -913,528 +864,1062 @@
           "investor": "ben_graham",
           "label": "Graham",
           "vote": "NO",
-          "reason": "real SOL 0.00 in [0.5,30], move +110.8% in (0,80]"
+          "reason": "real SOL 0.00 in [0.5,30], move +220.6% in (0,80]"
         },
         {
           "investor": "peter_lynch",
           "label": "Lynch",
           "vote": "NO",
-          "reason": "inflow -0.29 (>=1), 1 up/1 down, move +110.8% in (0,150]"
+          "reason": "inflow -0.09 (>=1), 2 up/2 down, move +220.6% in (0,150]"
         },
         {
           "investor": "stanley_druckenmiller",
           "label": "Druckenmiller",
           "vote": "NO",
-          "reason": "move +110.8% (>=10), recent half +0.0% (>0), inflow -0.29 (>0)"
+          "reason": "move +220.6% (>=10), recent half -1.9% (>0), inflow -0.09 (>0)"
         }
       ],
-      "fomo": "https://fomo.family/coin?address=7MwSqchUMaehFfXMVFGgV5W5QAiCkVbxVD28sUUPpump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=6fRwSJrXSPynvjJX2vWPzRHGrGDrs2o5TjnLk3TKpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "mint": "5JwwkUe7F19uoHz19bKMvL2cVLyJzqmefwaELmfFpump",
-      "symbol": "Brokecat",
-      "name": "Broke Cat",
-      "ts": 1794387348.0229728,
-      "at": "11/11/2026 15:55:48",
-      "yes": 1,
+      "mint": "2rShfehyLpmcjSYnKrXDgm8L3wZpRbS8yGEjWS1ypump",
+      "symbol": "ZJENSEN",
+      "name": "Anonymous Jensen Huang",
+      "ts": 1794499183.3854303,
+      "at": "12/11/2026 22:59:43",
+      "yes": 0,
       "need": 4,
       "of": 5,
       "passed": false,
       "action": "SKIP",
-      "reason": "panel 1/5 BUY < 3",
+      "reason": "panel 0/5 BUY < 4",
       "votes": [
         {
           "investor": "warren_buffett",
           "label": "Buffett",
           "vote": "NO",
-          "reason": "real SOL 13.10 (>=2), inflow +4.66 (>0), 20.0% off high (<=10)"
+          "reason": "real SOL 0.17 (>=2), inflow +0.00 (>0), 0.0% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
           "label": "Munger",
           "vote": "NO",
-          "reason": "drawdown 20%>20; last step -12%<-8; 4 down>2 up"
+          "reason": "real SOL 0.17<1"
         },
         {
           "investor": "ben_graham",
           "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.17 in [0.5,30], move +0.0% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow +0.00 (>=1), 0 up/0 down, move +0.0% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move +0.0% (>=10), recent half +0.0% (>0), inflow +0.00 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=2rShfehyLpmcjSYnKrXDgm8L3wZpRbS8yGEjWS1ypump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "7k8HKMRDrKQCxH5nxBqay6zAS17BonEHxVU1HykXpump",
+      "symbol": "DC",
+      "name": "debts collector",
+      "ts": 1794499183.3854303,
+      "at": "12/11/2026 22:59:43",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.00 (>=2), inflow -0.55 (>0), 53.3% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "drawdown 73%>20; 3 down>2 up; real SOL 0.00<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.00 in [0.5,30], move -27.5% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow -0.55 (>=1), 2 up/3 down, move -27.5% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move -27.5% (>=10), recent half +71.5% (>0), inflow -0.55 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=7k8HKMRDrKQCxH5nxBqay6zAS17BonEHxVU1HykXpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "9Jw3nmTGSSq8WjWvojbyJqduoVik6pJ1UC8Mdz28pump",
+      "symbol": "LMC",
+      "name": "Laughing Monkey Coin",
+      "ts": 1794499183.3854303,
+      "at": "12/11/2026 22:59:43",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.03 (>=2), inflow -0.23 (>0), 92.0% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "drawdown 92%>20; last step -62%<-8; 5 down>1 up; real SOL 0.03<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.03 in [0.5,30], move -92.0% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow -0.23 (>=1), 1 up/5 down, move -92.0% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move -92.0% (>=10), recent half -89.4% (>0), inflow -0.23 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=9Jw3nmTGSSq8WjWvojbyJqduoVik6pJ1UC8Mdz28pump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "B5XVuPWjdNhcd5wXqUoHfgynV3NcyfnbbkSLXvyepump",
+      "symbol": "CEO",
+      "name": "Hire a CEO",
+      "ts": 1794499183.3854303,
+      "at": "12/11/2026 22:59:43",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.04 (>=2), inflow +0.00 (>0), 0.1% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "real SOL 0.04<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.04 in [0.5,30], move +0.0% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow +0.00 (>=1), 1 up/1 down, move +0.0% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move +0.0% (>=10), recent half -0.1% (>0), inflow +0.00 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=B5XVuPWjdNhcd5wXqUoHfgynV3NcyfnbbkSLXvyepump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "CU7cJAbA5GRBtpnJHzMHSUa8jqikJr4vB827wBARpump",
+      "symbol": "fun",
+      "name": "PUMP IS FUN",
+      "ts": 1794499183.3854303,
+      "at": "12/11/2026 22:59:43",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.00 (>=2), inflow -0.06 (>0), 86.8% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "drawdown 89%>20; real SOL 0.00<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.00 in [0.5,30], move -74.4% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow -0.06 (>=1), 4 up/2 down, move -74.4% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move -74.4% (>=10), recent half -61.1% (>0), inflow -0.06 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=CU7cJAbA5GRBtpnJHzMHSUa8jqikJr4vB827wBARpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "358dQA6c9baNWFuKfaDM14sib1scWFx1g55eXivDpump",
+      "symbol": "$CCOW",
+      "name": "cat cow",
+      "ts": 1794499173.3852062,
+      "at": "12/11/2026 22:59:33",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.17 (>=2), inflow +0.08 (>0), 16.6% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "drawdown 51%>20; real SOL 0.17<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.17 in [0.5,30], move -16.6% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow +0.08 (>=1), 3 up/3 down, move -16.6% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move -16.6% (>=10), recent half +21.9% (>0), inflow +0.08 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=358dQA6c9baNWFuKfaDM14sib1scWFx1g55eXivDpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "6CbyG56pHUcrG2jFe7iYopuQzxCo8Uozz4RFe3fSpump",
+      "symbol": "Rig",
+      "name": "Rig",
+      "ts": 1794499173.3852062,
+      "at": "12/11/2026 22:59:33",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.02 (>=2), inflow -4.45 (>0), 24.2% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "drawdown 24%>20; 3 down>0 up; real SOL 0.02<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.02 in [0.5,30], move -24.2% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow -4.45 (>=1), 0 up/3 down, move -24.2% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move -24.2% (>=10), recent half -1.6% (>0), inflow -4.45 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=6CbyG56pHUcrG2jFe7iYopuQzxCo8Uozz4RFe3fSpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "3y1FnGvJ3fyTzSsdrwyiQR5MmBpwBfRKp51RBEpVpump",
+      "symbol": "$LA BEAST",
+      "name": "$HAVE A GOOD DAY",
+      "ts": 1794499153.383852,
+      "at": "12/11/2026 22:59:13",
+      "yes": 0,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 0/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
+          "vote": "NO",
+          "reason": "real SOL 0.00 (>=2), inflow -0.56 (>0), 7.5% off high (<=10)"
+        },
+        {
+          "investor": "charlie_munger",
+          "label": "Munger",
+          "vote": "NO",
+          "reason": "real SOL 0.00<1"
+        },
+        {
+          "investor": "ben_graham",
+          "label": "Graham",
+          "vote": "NO",
+          "reason": "real SOL 0.00 in [0.5,30], move +57.3% in (0,80]"
+        },
+        {
+          "investor": "peter_lynch",
+          "label": "Lynch",
+          "vote": "NO",
+          "reason": "inflow -0.56 (>=1), 3 up/1 down, move +57.3% in (0,150]"
+        },
+        {
+          "investor": "stanley_druckenmiller",
+          "label": "Druckenmiller",
+          "vote": "NO",
+          "reason": "move +57.3% (>=10), recent half +12.3% (>0), inflow -0.56 (>0)"
+        }
+      ],
+      "fomo": "https://fomo.family/coin?address=3y1FnGvJ3fyTzSsdrwyiQR5MmBpwBfRKp51RBEpVpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "mint": "HuZKk7UeAuzuEHLTWc5mZvj8dweUtQtBxXgTUyQ4pump",
+      "symbol": "buford",
+      "name": "what the capybara doin?",
+      "ts": 1794499153.383852,
+      "at": "12/11/2026 22:59:13",
+      "yes": 3,
+      "need": 4,
+      "of": 5,
+      "passed": false,
+      "action": "SKIP",
+      "reason": "panel 3/5 BUY < 4",
+      "votes": [
+        {
+          "investor": "warren_buffett",
+          "label": "Buffett",
           "vote": "BUY",
-          "reason": "real SOL 13.10 in [0.5,30], move +25.7% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow +4.66 (>=1), 2 up/4 down, move +25.7% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move +25.7% (>=10), recent half -19.0% (>0), inflow +4.66 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=5JwwkUe7F19uoHz19bKMvL2cVLyJzqmefwaELmfFpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "Ckh8tMuDCGnzaqxqkq644nN6B4QrEmhejCwj8EVFpump",
-      "symbol": "$AURA",
-      "name": "AURACOIN",
-      "ts": 1794387348.0229728,
-      "at": "11/11/2026 15:55:48",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.15 (>=2), inflow -0.17 (>0), 52.9% off high (<=10)"
+          "reason": "real SOL 21.92 (>=2), inflow +20.92 (>0), 8.0% off high (<=10)"
         },
         {
           "investor": "charlie_munger",
           "label": "Munger",
-          "vote": "NO",
-          "reason": "drawdown 66%>20; real SOL 0.15<1"
+          "vote": "BUY",
+          "reason": "no red flags"
         },
         {
           "investor": "ben_graham",
           "label": "Graham",
           "vote": "NO",
-          "reason": "real SOL 0.15 in [0.5,30], move -52.9% in (0,80]"
+          "reason": "real SOL 21.92 in [0.5,30], move +180.5% in (0,80]"
         },
         {
           "investor": "peter_lynch",
           "label": "Lynch",
           "vote": "NO",
-          "reason": "inflow -0.17 (>=1), 3 up/3 down, move -52.9% in (0,150]"
+          "reason": "inflow +20.92 (>=1), 4 up/2 down, move +180.5% in (0,150]"
         },
         {
           "investor": "stanley_druckenmiller",
           "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move -52.9% (>=10), recent half -17.1% (>0), inflow -0.17 (>0)"
+          "vote": "BUY",
+          "reason": "move +180.5% (>=10), recent half +12.6% (>0), inflow +20.92 (>0)"
         }
       ],
-      "fomo": "https://fomo.family/coin?address=Ckh8tMuDCGnzaqxqkq644nN6B4QrEmhejCwj8EVFpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "DhMZEjaRXDyQczZ2HTd3dnKMHCa2Qtg9LK4AsUoQpump",
-      "symbol": "clephant",
-      "name": "clephant",
-      "ts": 1794387348.0229728,
-      "at": "11/11/2026 15:55:48",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.08 (>=2), inflow -0.88 (>0), 15.8% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "4 down>1 up; real SOL 0.08<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.08 in [0.5,30], move -5.6% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow -0.88 (>=1), 1 up/4 down, move -5.6% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move -5.6% (>=10), recent half -6.0% (>0), inflow -0.88 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=DhMZEjaRXDyQczZ2HTd3dnKMHCa2Qtg9LK4AsUoQpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "GfiZUoPncqaBYzDK5RkZbNXBzgJPL82y6AuGLM6Wpump",
-      "symbol": "SCRVAN",
-      "name": "Screaming Vandal",
-      "ts": 1794387348.0229728,
-      "at": "11/11/2026 15:55:48",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.01 (>=2), inflow -0.05 (>0), 0.3% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "1 down>0 up; real SOL 0.01<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.01 in [0.5,30], move -0.3% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow -0.05 (>=1), 0 up/1 down, move -0.3% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move -0.3% (>=10), recent half +0.0% (>0), inflow -0.05 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=GfiZUoPncqaBYzDK5RkZbNXBzgJPL82y6AuGLM6Wpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "9YFPut6LRucnAczNGZDKXC1SmRaNUysuGdzkis8wpump",
-      "symbol": "CHIMP",
-      "name": "$CHIMPSHOT",
-      "ts": 1794387338.0221531,
-      "at": "11/11/2026 15:55:38",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.00 (>=2), inflow -0.31 (>0), 84.6% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "drawdown 85%>20; 5 down>0 up; real SOL 0.00<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.00 in [0.5,30], move -84.6% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow -0.31 (>=1), 0 up/5 down, move -84.6% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move -84.6% (>=10), recent half -5.4% (>0), inflow -0.31 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=9YFPut6LRucnAczNGZDKXC1SmRaNUysuGdzkis8wpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "B7zu7kX61kxJ5GKx7CTB5bZguka73vnCM7ybmBSvpump",
-      "symbol": "ch",
-      "name": "chair",
-      "ts": 1794387338.0221531,
-      "at": "11/11/2026 15:55:38",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.07 (>=2), inflow -0.10 (>0), 63.6% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "drawdown 64%>20; last step -64%<-8; real SOL 0.07<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.07 in [0.5,30], move -28.8% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow -0.10 (>=1), 3 up/3 down, move -28.8% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move -28.8% (>=10), recent half +31.2% (>0), inflow -0.10 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=B7zu7kX61kxJ5GKx7CTB5bZguka73vnCM7ybmBSvpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "4cBX1F72Jpajk7yio16HDR2mYKm8dWdKxN4k9vmTpump",
-      "symbol": "BRR",
-      "name": "Frozen Cat",
-      "ts": 1794387328.0213225,
-      "at": "11/11/2026 15:55:28",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.41 (>=2), inflow +0.38 (>0), 36.6% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "drawdown 59%>20; real SOL 0.41<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.41 in [0.5,30], move +299.1% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow +0.38 (>=1), 4 up/2 down, move +299.1% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move +299.1% (>=10), recent half -6.7% (>0), inflow +0.38 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=4cBX1F72Jpajk7yio16HDR2mYKm8dWdKxN4k9vmTpump&chainId=1399811149&r=savipww&source=share_link"
-    },
-    {
-      "mint": "DfvZCPH8LHC61XfuDkxhVba5f2K2pedN5bUdM7Cupump",
-      "symbol": "BetOnBlak",
-      "name": "BetOnBlack",
-      "ts": 1794387328.0213225,
-      "at": "11/11/2026 15:55:28",
-      "yes": 0,
-      "need": 4,
-      "of": 5,
-      "passed": false,
-      "action": "SKIP",
-      "reason": "panel 0/5 BUY < 3",
-      "votes": [
-        {
-          "investor": "warren_buffett",
-          "label": "Buffett",
-          "vote": "NO",
-          "reason": "real SOL 0.59 (>=2), inflow -0.28 (>0), 29.4% off high (<=10)"
-        },
-        {
-          "investor": "charlie_munger",
-          "label": "Munger",
-          "vote": "NO",
-          "reason": "drawdown 49%>20; real SOL 0.59<1"
-        },
-        {
-          "investor": "ben_graham",
-          "label": "Graham",
-          "vote": "NO",
-          "reason": "real SOL 0.59 in [0.5,30], move -29.4% in (0,80]"
-        },
-        {
-          "investor": "peter_lynch",
-          "label": "Lynch",
-          "vote": "NO",
-          "reason": "inflow -0.28 (>=1), 3 up/3 down, move -29.4% in (0,150]"
-        },
-        {
-          "investor": "stanley_druckenmiller",
-          "label": "Druckenmiller",
-          "vote": "NO",
-          "reason": "move -29.4% (>=10), recent half -10.3% (>0), inflow -0.28 (>0)"
-        }
-      ],
-      "fomo": "https://fomo.family/coin?address=DfvZCPH8LHC61XfuDkxhVba5f2K2pedN5bUdM7Cupump&chainId=1399811149&r=savipww&source=share_link"
+      "fomo": "https://fomo.family/coin?address=HuZKk7UeAuzuEHLTWc5mZvj8dweUtQtBxXgTUyQ4pump&chainId=1399811149&r=savipww&source=share_link"
     }
   ],
-  "dry_orders": [],
-  "open_positions": [],
+  "dry_orders": [
+    {
+      "id": "sig-193",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794498507.7031384,
+      "at": "12/11/2026 22:48:27",
+      "side": "SELL",
+      "mint": "6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump",
+      "symbol": "Rubio",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 17,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794498507.7024508,
+      "at": "12/11/2026 22:48:27",
+      "side": "SELL",
+      "mint": "6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump",
+      "symbol": "Rubio",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "no on-chain token balance to sell",
+      "fomo": "https://fomo.family/coin?address=6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-191",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794498497.1848695,
+      "at": "12/11/2026 22:48:17",
+      "side": "SELL",
+      "mint": "8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump",
+      "symbol": "Rails",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 16,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794498497.1834903,
+      "at": "12/11/2026 22:48:17",
+      "side": "SELL",
+      "mint": "8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump",
+      "symbol": "Rails",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "no on-chain token balance to sell",
+      "fomo": "https://fomo.family/coin?address=8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-189",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794498483.474318,
+      "at": "12/11/2026 22:48:03",
+      "side": "BUY",
+      "mint": "6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump",
+      "symbol": "Rubio",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 15,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794498483.473757,
+      "at": "12/11/2026 22:48:03",
+      "side": "BUY",
+      "mint": "6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump",
+      "symbol": "Rubio",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 0,
+      "gate_reason": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071714 SOL needed)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071714 SOL needed)",
+      "fomo": "https://fomo.family/coin?address=6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-187",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794498153.2721953,
+      "at": "12/11/2026 22:42:33",
+      "side": "BUY",
+      "mint": "2YtCBp1xx5eUsTFYMMQ8BnuYk3yY26PZCigBgY7Xpump",
+      "symbol": "Swapz",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=2YtCBp1xx5eUsTFYMMQ8BnuYk3yY26PZCigBgY7Xpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 14,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794498153.271427,
+      "at": "12/11/2026 22:42:33",
+      "side": "BUY",
+      "mint": "2YtCBp1xx5eUsTFYMMQ8BnuYk3yY26PZCigBgY7Xpump",
+      "symbol": "Swapz",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 0,
+      "gate_reason": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071866 SOL needed)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071866 SOL needed)",
+      "fomo": "https://fomo.family/coin?address=2YtCBp1xx5eUsTFYMMQ8BnuYk3yY26PZCigBgY7Xpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-185",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794498002.6011386,
+      "at": "12/11/2026 22:40:02",
+      "side": "SELL",
+      "mint": "7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump",
+      "symbol": "JREFILL",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 13,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794498002.6003814,
+      "at": "12/11/2026 22:40:02",
+      "side": "SELL",
+      "mint": "7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump",
+      "symbol": "JREFILL",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "no on-chain token balance to sell",
+      "fomo": "https://fomo.family/coin?address=7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-183",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497973.092014,
+      "at": "12/11/2026 22:39:33",
+      "side": "BUY",
+      "mint": "7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump",
+      "symbol": "JREFILL",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 12,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794497973.0914483,
+      "at": "12/11/2026 22:39:33",
+      "side": "BUY",
+      "mint": "7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump",
+      "symbol": "JREFILL",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 0,
+      "gate_reason": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071809 SOL needed)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071809 SOL needed)",
+      "fomo": "https://fomo.family/coin?address=7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-181",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497923.1654277,
+      "at": "12/11/2026 22:38:43",
+      "side": "BUY",
+      "mint": "8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump",
+      "symbol": "Rails",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 11,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794497923.164498,
+      "at": "12/11/2026 22:38:43",
+      "side": "BUY",
+      "mint": "8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump",
+      "symbol": "Rails",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 0,
+      "gate_reason": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071878 SOL needed)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "wallet 0.011009 SOL is short of $5.00 + 5e-05 fee + 0.01 reserve (0.071878 SOL needed)",
+      "fomo": "https://fomo.family/coin?address=8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-179",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497726.052025,
+      "at": "12/11/2026 22:35:26",
+      "side": "SELL",
+      "mint": "3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump",
+      "symbol": "CHIP",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 10,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794497726.0512824,
+      "at": "12/11/2026 22:35:26",
+      "side": "SELL",
+      "mint": "3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump",
+      "symbol": "CHIP",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": 0,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": "{\"InstructionError\": [3, {\"Custom\": 6005}]}",
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "{\"InstructionError\": [3, {\"Custom\": 6005}]}",
+      "fomo": "https://fomo.family/coin?address=3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-177",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497672.3427408,
+      "at": "12/11/2026 22:34:32",
+      "side": "BUY",
+      "mint": "3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump",
+      "symbol": "CHIP",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 9,
+      "kind": "live_attempt",
+      "label": "LỆNH THẬT",
+      "ts": 1794497672.3410642,
+      "at": "12/11/2026 22:34:32",
+      "side": "BUY",
+      "mint": "3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump",
+      "symbol": "CHIP",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": 1,
+      "gate_ok": 1,
+      "gate_reason": "ok",
+      "sim_err": null,
+      "sent": 1,
+      "signature": null,
+      "solscan": null,
+      "note": "confirmed:finalized",
+      "fomo": "https://fomo.family/coin?address=3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-175",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497280.612184,
+      "at": "12/11/2026 22:28:00",
+      "side": "SELL",
+      "mint": "13pbZntRpFARcSPR8SZoo36ZA9wAyRyZGgJozQVE6pad",
+      "symbol": "unity",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=13pbZntRpFARcSPR8SZoo36ZA9wAyRyZGgJozQVE6pad&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 8,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794497280.6109626,
+      "at": "12/11/2026 22:28:00",
+      "side": "SELL",
+      "mint": "13pbZntRpFARcSPR8SZoo36ZA9wAyRyZGgJozQVE6pad",
+      "symbol": "unity",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "no on-chain token balance to sell",
+      "fomo": "https://fomo.family/coin?address=13pbZntRpFARcSPR8SZoo36ZA9wAyRyZGgJozQVE6pad&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-173",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497171.1842685,
+      "at": "12/11/2026 22:26:11",
+      "side": "SELL",
+      "mint": "7uubQM7HyMkjMT877VRgNyY8DAAXRbn1hFaanXB7pump",
+      "symbol": "TINFOIL",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=7uubQM7HyMkjMT877VRgNyY8DAAXRbn1hFaanXB7pump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 7,
+      "kind": "live_attempt",
+      "label": "LỆNH THẬT",
+      "ts": 1794497171.1829991,
+      "at": "12/11/2026 22:26:11",
+      "side": "SELL",
+      "mint": "7uubQM7HyMkjMT877VRgNyY8DAAXRbn1hFaanXB7pump",
+      "symbol": "TINFOIL",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": 1,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": null,
+      "sent": 1,
+      "signature": null,
+      "solscan": null,
+      "note": "confirmed:finalized",
+      "fomo": "https://fomo.family/coin?address=7uubQM7HyMkjMT877VRgNyY8DAAXRbn1hFaanXB7pump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-171",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497093.0824084,
+      "at": "12/11/2026 22:24:53",
+      "side": "SELL",
+      "mint": "9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump",
+      "symbol": "POKEWORK",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": 6,
+      "kind": "live_attempt",
+      "label": "LIVE (chưa xác nhận)",
+      "ts": 1794497093.0818677,
+      "at": "12/11/2026 22:24:53",
+      "side": "SELL",
+      "mint": "9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump",
+      "symbol": "POKEWORK",
+      "mode": "live",
+      "amount_usd": 5.0,
+      "sim_ok": null,
+      "gate_ok": 1,
+      "gate_reason": "ok (sell of existing position)",
+      "sim_err": null,
+      "sent": 0,
+      "signature": null,
+      "solscan": null,
+      "note": "no on-chain token balance to sell",
+      "fomo": "https://fomo.family/coin?address=9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump&chainId=1399811149&r=savipww&source=share_link"
+    },
+    {
+      "id": "sig-169",
+      "kind": "signal",
+      "label": "LỆNH THẬT",
+      "ts": 1794497082.7889547,
+      "at": "12/11/2026 22:24:42",
+      "side": "BUY",
+      "mint": "9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump",
+      "symbol": "POKEWORK",
+      "mode": "live",
+      "status": "sent",
+      "sim_ok": null,
+      "gate_ok": null,
+      "gate_reason": "",
+      "sent": 0,
+      "fomo": "https://fomo.family/coin?address=9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump&chainId=1399811149&r=savipww&source=share_link"
+    }
+  ],
+  "open_positions": [
+    {
+      "id": 38,
+      "mint": "2YtCBp1xx5eUsTFYMMQ8BnuYk3yY26PZCigBgY7Xpump",
+      "symbol": "Swapz",
+      "opened_ts": 1794498152.067147,
+      "opened_at": "12/11/2026 22:42:32",
+      "cost_usd": 5.0,
+      "signal_px_usd": 2.996201673248013e-06,
+      "last_mkt_pct": 17.166555171892185,
+      "last_mark_pnl_pct": 14.83588029308085,
+      "simulated": 1,
+      "fomo": "https://fomo.family/coin?address=2YtCBp1xx5eUsTFYMMQ8BnuYk3yY26PZCigBgY7Xpump&chainId=1399811149&r=savipww&source=share_link"
+    }
+  ],
   "recent_closed": [
     {
-      "id": 30,
-      "mint": "9jTkb1noLMNsT1Z4MsoKz8yNFVnnMrBoAmhiqQZ6pump",
-      "symbol": "MGOAT",
-      "opened_at": "11/11/2026 13:32:58",
-      "closed_at": "11/11/2026 13:33:18",
+      "id": 39,
+      "mint": "6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump",
+      "symbol": "Rubio",
+      "opened_at": "12/11/2026 22:48:02",
+      "closed_at": "12/11/2026 22:48:26",
       "cost_usd": 5.0,
-      "pnl_usd": -0.7212486656176189,
-      "pnl_pct": -14.424973312352375,
+      "pnl_usd": -4.18150197461872,
+      "pnl_pct": -83.6300394923744,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -12.179822838437326,
-      "fomo": "https://fomo.family/coin?address=9jTkb1noLMNsT1Z4MsoKz8yNFVnnMrBoAmhiqQZ6pump&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -83.20314878303215,
+      "fomo": "https://fomo.family/coin?address=6V6gddbBSpNx5JRbmSboktfdPh6ZY2phhEjipsDMpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 29,
-      "mint": "HQybCDHuhvKQLH5nEF3XuZ7JTuWUtnHNDj7Xtimspump",
-      "symbol": "COD",
-      "opened_at": "11/11/2026 13:32:58",
-      "closed_at": "11/11/2026 13:33:22",
+      "id": 37,
+      "mint": "7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump",
+      "symbol": "JREFILL",
+      "opened_at": "12/11/2026 22:39:32",
+      "closed_at": "12/11/2026 22:40:01",
       "cost_usd": 5.0,
-      "pnl_usd": -0.5677092224215627,
-      "pnl_pct": -11.354184448431258,
+      "pnl_usd": -0.8185675836106858,
+      "pnl_pct": -16.37135167221372,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -8.885802309990765,
-      "fomo": "https://fomo.family/coin?address=HQybCDHuhvKQLH5nEF3XuZ7JTuWUtnHNDj7Xtimspump&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -13.939794714228903,
+      "fomo": "https://fomo.family/coin?address=7wmB57M1oG1V2ioS2wrxFAFY8mMm7GKaN1G7gGgdpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 28,
-      "mint": "7r2MAHGAmbE9Ha7SjiMKk8j3vo7jKZZ5Yaj3SBWRpump",
-      "symbol": "Timmy",
-      "opened_at": "11/11/2026 13:31:48",
-      "closed_at": "11/11/2026 13:32:22",
+      "id": 36,
+      "mint": "8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump",
+      "symbol": "Rails",
+      "opened_at": "12/11/2026 22:38:42",
+      "closed_at": "12/11/2026 22:48:15",
       "cost_usd": 5.0,
-      "pnl_usd": -1.0832915019589193,
-      "pnl_pct": -21.665830039178392,
+      "pnl_usd": -0.47867875641577573,
+      "pnl_pct": -9.573575128315515,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -19.541239871491676,
-      "fomo": "https://fomo.family/coin?address=7r2MAHGAmbE9Ha7SjiMKk8j3vo7jKZZ5Yaj3SBWRpump&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -7.236789418477752,
+      "fomo": "https://fomo.family/coin?address=8ZEJ1RT37ZdfH2MxvMC162ZxG6etfe47LVk46RPJpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 27,
-      "mint": "57QULkJQWpN6RtMyVeL6Va3KgvfeZSTbqg6s4oA2pump",
-      "symbol": "TROOPS",
-      "opened_at": "11/11/2026 13:28:30",
-      "closed_at": "11/11/2026 13:28:42",
+      "id": 35,
+      "mint": "3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump",
+      "symbol": "CHIP",
+      "opened_at": "12/11/2026 22:34:22",
+      "closed_at": "12/11/2026 22:35:20",
       "cost_usd": 5.0,
-      "pnl_usd": -0.6291709056504002,
-      "pnl_pct": -12.583418113008005,
-      "exit_reason": "stop_loss",
-      "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -10.166418288447499,
-      "fomo": "https://fomo.family/coin?address=57QULkJQWpN6RtMyVeL6Va3KgvfeZSTbqg6s4oA2pump&chainId=1399811149&r=savipww&source=share_link"
+      "pnl_usd": 3.2990309673268925,
+      "pnl_pct": 65.98061934653785,
+      "exit_reason": "take_profit",
+      "exit_reason_vi": "Chốt lời (chạm +50%)",
+      "exit_mkt_pct": 70.56021232959142,
+      "fomo": "https://fomo.family/coin?address=3NicSvAgvNFTBqLXvTLANrjtewrqNuKUobDGAwSZpump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 26,
-      "mint": "4eB7eYtrDoiBgVtKvKqfRbq79a7Vz32bNSXLx5o6pump",
-      "symbol": "LOGGY",
-      "opened_at": "11/11/2026 13:27:40",
-      "closed_at": "11/11/2026 13:27:47",
+      "id": 34,
+      "mint": "9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump",
+      "symbol": "POKEWORK",
+      "opened_at": "12/11/2026 22:24:41",
+      "closed_at": "12/11/2026 22:24:52",
       "cost_usd": 5.0,
-      "pnl_usd": -0.5019473029282873,
-      "pnl_pct": -10.038946058565745,
+      "pnl_usd": -0.4417453880005562,
+      "pnl_pct": -8.834907760011124,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -7.520476830944467,
-      "fomo": "https://fomo.family/coin?address=4eB7eYtrDoiBgVtKvKqfRbq79a7Vz32bNSXLx5o6pump&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -6.403523320148152,
+      "fomo": "https://fomo.family/coin?address=9cUiUKSyAbX83ZZuVoqTvB5QrW9BYHRshEMNeUmepump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 25,
-      "mint": "8783edZRUwLWUpdAs9MD5hwAhzobsU4sRc4wD9kG5Erh",
-      "symbol": "Dumpling",
-      "opened_at": "11/11/2026 13:25:10",
-      "closed_at": "11/11/2026 13:25:28",
+      "id": 33,
+      "mint": "kdh1AiUsAQjVrJHQVhojNGP182esBuW6owWdvN6pump",
+      "symbol": "POKEWORK",
+      "opened_at": "12/11/2026 22:24:01",
+      "closed_at": "12/11/2026 22:24:07",
       "cost_usd": 5.0,
-      "pnl_usd": -0.7530308117586095,
-      "pnl_pct": -15.060616235172187,
+      "pnl_usd": -0.7086990189589972,
+      "pnl_pct": -14.173980379179941,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -12.675672829736119,
-      "fomo": "https://fomo.family/coin?address=8783edZRUwLWUpdAs9MD5hwAhzobsU4sRc4wD9kG5Erh&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -11.732818459237304,
+      "fomo": "https://fomo.family/coin?address=kdh1AiUsAQjVrJHQVhojNGP182esBuW6owWdvN6pump&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 24,
-      "mint": "CGxBpst4mwgMFcuSmJ8pM4Lu6TbW5fSbqd7vvGk9rRq4",
-      "symbol": "INVEST",
-      "opened_at": "11/11/2026 13:24:10",
-      "closed_at": "11/11/2026 13:24:27",
+      "id": 32,
+      "mint": "13pbZntRpFARcSPR8SZoo36ZA9wAyRyZGgJozQVE6pad",
+      "symbol": "unity",
+      "opened_at": "12/11/2026 22:23:31",
+      "closed_at": "12/11/2026 22:27:59",
       "cost_usd": 5.0,
-      "pnl_usd": -0.6667677513841053,
-      "pnl_pct": -13.335355027682105,
+      "pnl_usd": -1.1877792274608256,
+      "pnl_pct": -23.755584549216515,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -10.967178421503199,
-      "fomo": "https://fomo.family/coin?address=CGxBpst4mwgMFcuSmJ8pM4Lu6TbW5fSbqd7vvGk9rRq4&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -21.718188537299522,
+      "fomo": "https://fomo.family/coin?address=13pbZntRpFARcSPR8SZoo36ZA9wAyRyZGgJozQVE6pad&chainId=1399811149&r=savipww&source=share_link"
     },
     {
-      "id": 23,
-      "mint": "63SifLzomgFEtRE2cy12pSTRFcYZRJJqSeisnNALpump",
-      "symbol": "c4t",
-      "opened_at": "11/11/2026 13:22:40",
-      "closed_at": "11/11/2026 13:22:50",
+      "id": 31,
+      "mint": "7uubQM7HyMkjMT877VRgNyY8DAAXRbn1hFaanXB7pump",
+      "symbol": "TINFOIL",
+      "opened_at": "12/11/2026 22:19:51",
+      "closed_at": "12/11/2026 22:26:02",
       "cost_usd": 5.0,
-      "pnl_usd": -0.4607492823811361,
-      "pnl_pct": -9.21498564762272,
+      "pnl_usd": -0.43374429212146737,
+      "pnl_pct": -8.674885842429347,
       "exit_reason": "stop_loss",
       "exit_reason_vi": "Cắt lỗ (chạm -6%)",
-      "exit_mkt_pct": -6.682571713161356,
-      "fomo": "https://fomo.family/coin?address=63SifLzomgFEtRE2cy12pSTRFcYZRJJqSeisnNALpump&chainId=1399811149&r=savipww&source=share_link"
+      "exit_mkt_pct": -6.08169085229302,
+      "fomo": "https://fomo.family/coin?address=7uubQM7HyMkjMT877VRgNyY8DAAXRbn1hFaanXB7pump&chainId=1399811149&r=savipww&source=share_link"
     }
   ],
   "equity": {
-    "ts": 1794387378.025246,
-    "at": "11/11/2026 15:56:18",
-    "cash_usd": 9.123853049486156,
-    "positions_usd": 0.0,
-    "equity_usd": 9.123853049486156,
-    "open_n": 0
+    "ts": 1794499213.3905516,
+    "at": "12/11/2026 23:00:13",
+    "cash_usd": -0.8278322243739805,
+    "positions_usd": 5.751997582668318,
+    "equity_usd": 4.924165358294338,
+    "open_n": 1
   },
   "counts": {
-    "tokens": 3662,
-    "votes": 12640,
-    "decisions": 3585,
-    "positions_closed": 30,
-    "realized_pnl_usd": -10.876146950513846,
-    "signals_buy_sent": 30,
-    "live_attempts": 0
+    "tokens": 4745,
+    "votes": 15660,
+    "decisions": 4551,
+    "positions_closed": 38,
+    "realized_pnl_usd": -15.827832224373982,
+    "signals_buy_sent": 39,
+    "live_attempts": 17
   },
   "pulse_fresh": false,
   "publish_interval_sec": 60,
-  "published_at_ts": 1794488418.26246,
-  "published_at": "12/11/2026 20:00:18",
+  "published_at_ts": 1794499407.2650118,
+  "published_at": "12/11/2026 23:03:27",
   "source": "github-pages"
 }
