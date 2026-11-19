@@ -1,13 +1,13 @@
 {
-  "name": "PaperDesk5",
-  "short_name": "PaperDesk5",
-  "description": "Bàn theo dõi 5 bot PaperDesk5 (chỉ đọc).",
+  "name": "Kiri Terminal",
+  "short_name": "Kiri",
+  "description": "Màn hình live 5 bot Kiri (tiền ảo).",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#0e1116",
-  "theme_color": "#0e1116",
+  "background_color": "#05070b",
+  "theme_color": "#05070b",
   "lang": "vi",
   "icons": [
     {
